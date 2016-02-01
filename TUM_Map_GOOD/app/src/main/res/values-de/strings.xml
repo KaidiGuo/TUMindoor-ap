@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TUM_Map_2</string>
+    <string name="Back_Button">Zurück</string>
+    <string name="GO_Text">Start!</string>
+    <string name="Title_Screen_2">Wo bin ich?</string>
+    <string name="Nav_End_Room">Zielraum</string>
+    <string name="Navigate_to_room_Button"></string>
+    <string name="Navigator_Start_Room">Startraum</string>
+    <string name="RoomNumber_Entry">Raumnummer</string>
+    <string name="Welcome_Text_Header">Wilkommen zu TU Mapper</string>
+    <string name="start_map_page">Startraum</string>
+    <string name="Show_Location_Button">Meine Position zeigen</string>
+    <string name="Title_Nav_Screen">Raum finden</string>
+    <string name="Title_Screen1">Was möchest du tun?</string>
+</resources>

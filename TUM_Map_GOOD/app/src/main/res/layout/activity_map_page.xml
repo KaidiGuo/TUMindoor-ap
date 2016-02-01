@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/blue3_TUM">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            style="@style/MainHeading"
+            android:text="@string/map_page_title"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/start_map_page"
+                />
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="3074"
+                android:id="@+id/room_num_start" />
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/end_room_map_page"
+                />
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6667"
+                android:id="@+id/room_num_end" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MapDirectionFont"
+                android:text="@string/follow_line"
+                android:id="@+id/line1" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:background="#ffffff">
+
+
+
+        <com.mycompany.tum_map_2.ScaleImage
+            android:id="@+id/scale_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/tumfloor1"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+        <!-- THIS PART IS NOT NEEDED YET IT IS THE ARROW
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/arrow"
+            android:layout_gravity="bottom|left"
+            />
+-->
+        <Button
+            style="@style/MainHeading.Button"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20sp"
+            android:text="Home"
+            android:id="@+id/backhome" />
+
+
+        <ImageView
+            android:layout_height="100sp"
+            android:layout_width="150sp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/tum_white_alpha"
+            android:contentDescription="@string/tum_white_alpha_description"
+            android:layout_marginLeft="40dp"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

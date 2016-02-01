@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue3_TUM</item>
+        <item name="colorPrimaryDark">@color/blue5_TUM</item>
+        <item name="colorAccent">@color/white_TUM</item>
+        <item name="android:textColorHighlight">@color/orange_TUM</item>
+        <item name="android:colorBackground">@color/blue3_TUM</item>
+    </style>
+
+    <style name="MainHeading" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">sans-serif-dark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white_TUM</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <style name="MainHeading.Information">
+        <item name="android:textSize">28sp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+    <style name="MapDirectionFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/orange_TUM</item>
+        <item name="android:gravity">center</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="MainHeading.Button">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">60sp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_marginTop">10sp</item>
+        <item name="android:background">@drawable/button_border</item>
+    </style>
+
+    <style name="MainHeading.Button.Entry">
+        <item name="android:background">@drawable/button_border_option2</item>
+    </style>
+    <style name="MainHeading.Button.Entry.go">
+        <item name="android:background">@drawable/button_border_go</item>
+    </style>
+    <style name="MainHeading.map_writing">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+</resources>

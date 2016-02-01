@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TUMapper</string>
+    <string name="Title_Screen_2">Where am I?</string>
+    <string name="RoomNumber_Entry">ENTER NUMBER HERE</string>
+    <string name="GO_Text">Go!</string>
+    <string name="Welcome_Text_Header">Welcome to TU Mapper</string>
+    <string name="Title_Screen1">What do you want to do?</string>
+    <string name="Show_Location_Button">Show my Location</string>
+    <string name="Navigate_to_room_Button">Navigate to Room</string>
+    <string name="Back_Button">Back</string>
+    <string name="Navigator_Start_Room">Type Start Room Here</string>
+    <string name="Nav_End_Room">Type End Room Here</string>
+    <string name="Title_Nav_Screen">Find your room</string>
+    <string name="tum_white_alpha_description">TUM Logo with transparent background</string>
+    <string name="map_page_title">Map of TUM</string>
+    <string name="start_map_page">Start Room</string>
+    <string name="end_room_map_page">End Room</string>
+    <string name="follow_line">Follow line to your destination</string>
+</resources>
